@@ -1,6 +1,3 @@
-// function myFunction() {
-//     var x = document.createElement("INPUT");
-//     document.body.appendChild(x);
-// }
-const theEmptyButton = document.querySelector('button')
+
+const theEmptyButton = document.querySelector('emptyButton')
 theEmptyButton.textContent = 'Hi';
