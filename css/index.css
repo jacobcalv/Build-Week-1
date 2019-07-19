@@ -126,6 +126,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@keyframes colorChange {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
 .navBar {
   background-color: aquamarine;
 }
@@ -140,8 +148,9 @@ table {
   margin-right: 5%;
 }
 .navBar .items h1 {
-  color: white;
+  color: #817d7d;
   font-size: 30px;
+  font-family: 'Bungee Shade', cursive;
   font-style: bold;
 }
 .navBar .items nav {
@@ -149,8 +158,9 @@ table {
 }
 .navBar .items nav a {
   text-decoration: none;
-  color: white;
+  color: #817d7d;
   margin-left: 20px;
+  font-family: 'Permanent Marker', cursive;
 }
 header {
   background-color: black;
@@ -168,25 +178,58 @@ header .topContent img {
   width: 100%;
 }
 header .topContent h2 {
-  color: aquamarine;
+  color: white;
   text-align: center;
   margin-top: 10px;
   font-size: 25px;
   font-style: italic;
   order: 1;
+  animation-name: "colorChange";
+  animation-duration: 6s;
+  font-family: 'Permanent Marker', cursive;
 }
-.main {
+body {
+  background-image: linear-gradient(#adadad, #817d7d, #adadad);
+}
+.aboutsite {
+  background-color: black;
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
 }
-.main button {
-  border: 2px solid black;
-  background-color: grey;
-  border-radius: 7px;
-  width: 255px;
-  height: 127px;
+.aboutsite h1 {
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
 }
-body {
-  background-color: #d6caca;
+.aboutsite p {
+  font-size: 20px;
+  padding-left: 30px;
+  font-family: 'Special Elite', cursive;
+  color: white;
+}
+.slidePics {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.slidePics .picSlides {
+  width: 100%;
+  height: 600px;
+}
+.slidePics h1 {
+  text-align: center;
+  font-size: 55px;
+  color: #333333;
+  font-family: 'Bungee Shade', cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

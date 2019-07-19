@@ -6,6 +6,8 @@
         <link href="css/index.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Hanalei+Fill|Permanent+Marker|Special+Elite&display=swap" rel="stylesheet">  
+
     </head>
 
     <body>
@@ -15,7 +17,7 @@
                 <nav>
                     <a class='navItem' href="#">Home</a>
                     <a class='navItem' href="#">About</a>
-                    <a class='navItem' href="#">Cool Stuff</a>
+                    <a class='navItem' href="coolStuff.html">Cool Stuff</a>
                     <a class='navItem' href="#">Sign up</a>
                     <a class='navItem'  href="#">Login</a>
                 </nav>
@@ -24,13 +26,20 @@
 
         <header>
             <div class='topContent'>
-                <h2>A Place to Just Say Hello</h2>
-                <img src="img/photo.jpg">
+                <h2 class = 'hi' > " A Place to Just Show Pictures "</h2>
+                <img class = 'slideshow' src="img/photo.jpg">
             </div>
         </header>    
-        <p class='emptyButton'></p>
-        <section class ='main'>
-            <button>Click Me Plz</button>
+        
+        <section class="aboutsite">
+            <h1 id='motto' onclick="myFunc()">My Motto</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio atque laboriosam natus tempore officia adipisci aperiam, voluptates totam eius culpa praesentium sapiente quae cum voluptatem aliquid aspernatur incidunt id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, provident. Inventore accusamus possimus similique? Assumenda soluta id vero at tempora reprehenderit obcaecati impedit dolorem. Quam ut officia eum labore fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestias modi quas sapiente porro. Molestias, quos aliquid culpa, voluptatem facere itaque sunt, dolore explicabo accusamus minima assumenda fugiat quasi at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis at maiores ipsum deserunt totam temporibus aperiam sequi repellat eum, iure quae corporis asperiores autem iusto maxime fugit labore tempore?
+            </p>
+        </section>
+        <section class ='slidePics'>
+            <h1>My Recent Pictures</h1>
+            <img class= picSlides name='slide' width="100%" height='400px'>
         </section>
     </body>
 </html>
