@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>CoolStuff</title>
+        <title>HelloMachine</title>
         <link href="css/coolstuff.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="js/coolscript.js"></script>
@@ -11,15 +11,21 @@
         
     </head>
     <body>
-        <section class='nav-bar'>
+        <section class='header'>
             <div class='top' >
-                <h1>DataSaver™</h1>
+                <h1>HelloMachine™</h1>
             </div>
             <a href= 'index.html'><div class= 'back-button'>
                     <image class='back' src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/West.svg/1024px-West.svg.png'></image>
                     <h1>Go Back</h1>  
             </div></a>
         </section>
+
+        <form id="input1">
+            Name: <input name="name" type='text' size= '50'>
+        </form>
+        <button onclick="nameFunc()">Submit</button>
+        <p id='output'></p>
     </body>  
 
 </html> 
