@@ -1,0 +1,43 @@
+body{
+    background-image: url('https://images.pexels.com/photos/2259232/pexels-photo-2259232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+.nav-bar .top{
+    background-color: white;
+    width: 30%;
+    height: 75px;
+    margin-bottom: 30px;
+    
+
+
+}
+.nav-bar .top h1{
+    font-size: 50px;
+    font-style: bold;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    width: 100%;
+
+}
+
+.nav-bar .back-button{
+    display: flex;
+    flex-direction: row;
+    width: 13%;
+    height: 75px;
+    background-color: white;
+    
+}
+.nav-bar .back-button h1{
+    padding-left: 10px;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+.nav-bar a{
+   text-decoration: none; 
+   color: rgb(0, 0, 0);
+}
+.nav-bar .back-button .back{
+    width: 75px;
+    height: 75px;
+}
+
